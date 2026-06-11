@@ -1,0 +1,21 @@
+README.md
+  s_1d78f8b64e2b6b::t_6770760f05c997 1-29
+Casks/lurar.rb
+  s_1d78f8b64e2b6b::t_da8d7740b09e67 1-27
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.6",
+  "base_commit_sha": "b853d805614e66711a28642f1944765d1cdfd7af",
+  "prompts": {},
+  "sessions": {
+    "s_1d78f8b64e2b6b": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "366df4c9-6588-4562-8ac3-f814faa24467",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Linus Sjöberg <linus.sjoberg@tradera.com>"
+    }
+  }
+}
