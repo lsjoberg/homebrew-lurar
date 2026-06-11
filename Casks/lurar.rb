@@ -10,11 +10,13 @@ cask "lurar" do
 
   livecheck do
     url "https://lurar.app/appcast.xml"
-    strategy :sparkle
+    strategy :sparkle do |item|
+      item.short_version
+    end
   end
 
   auto_updates true
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Lurar.app"
 
