@@ -1,6 +1,6 @@
 cask "lurar" do
-  version "0.11.0"
-  sha256 "9d07bed9e375d2f512a33b1bfb5faf65fdfccabe31e7cf8ae79a979591f485c9"
+  version "0.11.1"
+  sha256 "8335424bf8dfb3ab3821a11c808236444e2499357ec557f228c8a9bc51c7ec9f"
 
   url "https://github.com/lsjoberg/lurar/releases/download/v#{version}/Lurar-#{version}.dmg",
       verified: "github.com/lsjoberg/lurar/"
